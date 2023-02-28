@@ -1,0 +1,151 @@
+  
+
+  .btn-icon{ 
+      
+    font-size: 38px;
+    background-color: red !important;
+    color: #fff !important;
+
+  } 
+  .item_star{ 
+      width: 30px;
+      height: 30px; 
+
+  } 
+  .bookmarl-list{ 
+
+    list-style-type: none;
+    padding: 0;
+  }
+ .title{ 
+
+  width: 100%;
+  max-width: 200px;
+  margin: 40px auto;
+  font-weight: 800;
+  font-size: 78px;
+  color: red;
+ }
+.movie__box {
+    height: 400px;
+}
+.movie__list{ 
+  
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.movie__item{ 
+
+  width: 300px;
+  
+} 
+.movie__box{ 
+
+  height: 450px;
+}
+.movie__title {
+    font-size: 20px; 
+    text-transform: capitalize; 
+   
+}
+.js-movie-form{ 
+
+  margin: 0 auto;
+
+}
+.movie__img {
+    width: 274px;
+    height: 150px;
+} 
+.modal__iframe{ 
+
+  width: 100%;
+  max-width: 447px; 
+  border-radius: 12px;
+  border: none;
+}
+ .input-grop-text{ 
+
+    color: #fff;
+    background-color: red; 
+    border: none;
+    font-weight: 500;
+ }
+.movie__rating::before{ 
+      
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      background-image: url("../images/star.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      content: '';
+ } 
+ .movie__year::before{ 
+      
+    display: inline-block;
+      width: 20px;
+      height: 20px;
+       margin-right: 5px;
+      background-image: url("../images/date.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+ } 
+ .movie__time::before{ 
+      
+    display: inline-block;
+      width: 20px;
+      height: 20px;
+       margin-right: 5px;
+      background-image: url("../images/time-fast.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+ } 
+
+
+
+ /* ============================================movies modal======================================== */
+
+
+
+ .movie__modal__rating::before{ 
+      
+    display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      background-image: url("../images/star.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      content: '';
+ } 
+
+ .movie__modal__year::before{ 
+      
+    display: inline-block;
+      width: 20px;
+      height: 20px;
+       margin-right: 5px;
+      background-image: url("../images/date.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+ } 
+ .movie__modal__time::before{ 
+      
+    display: inline-block;
+      width: 20px;
+      height: 20px;
+       margin-right: 5px;
+      background-image: url("../images/time-fast.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+ }  
+
+
